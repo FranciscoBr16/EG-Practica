@@ -1,0 +1,51 @@
+Ejercitación 2
+2.a <!-- Código controlado el día 12/08/2009 ->
+
+Esto es simplemente un comentario en HTML que se utiliza para informar sobre el control de versiones o la fecha en la que se escribió o se actualizó el código HTML. Este comentario no tiene ninguna funcionalidad dentro del código HTML en sí mismo y es ignorado por los navegadores web. Podria ir en cualquier lugar del codigo y se escriben entre los símbolos <!-- y -->.
+Los comentarios en HTML se utilizan para agregar notas o explicaciones en el código HTML sin afectar el funcionamiento del sitio web.
+
+2.b <div id="bloque1">Contenido del bloque1</div>
+
+La etiqueta <div> en HTML se utiliza para crear una sección o contenedor en el documento HTML. La etiqueta <div> no tiene ninguna función específica, simplemente se utiliza para dividir el contenido en secciones para facilitar el estilo y la organización del contenido en la página web.
+
+En el ejemplo se crea un contenedor con un identificador único llamado "bloque1" y se agrega el texto "Contenido del bloque1", que se podra visualizar en la pagina web, dentro del contenedor.
+
+2.c <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+
+La etiqueta <img> en HTML se utiliza para insertar una imagen en una página web, su propósito es desplegar una imagen en la página HTML, en el lugar en que aparece. Los atributos src, alt, id, name, width, height, y longdesc son atributos de la etiqueta <img> que especifican diferentes características de la imagen y cómo se debe mostrar.
+
+El atributo src especifica la URL de la imagen que se va a mostrar.
+El atributo alt proporciona un texto alternativo que se muestra en caso de que la imagen no se pueda cargar.
+El atributo id proporciona un identificador único para la imagen, que se puede utilizar para aplicar estilos o manipular el contenido de la imagen mediante CSS o JavaScript.
+El atributo name especifica un nombre para la imagen.
+El atributo width y height especifican el ancho y alto de la imagen en píxeles.
+El atributo longdesc proporciona una URL que apunta a una página que contiene información detallada sobre la imagen. Este atributo se utiliza principalmente para proporcionar información adicional sobre la imagen para usuarios con discapacidades visuales.
+La etiqueta <img> se puede utilizar en cualquier lugar dentro del cuerpo del documento HTML, como dentro de un párrafo, dentro de una tabla, en una lista, etc. Y no tiene etiqueta de cierre
+
+2.d <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+
+En HTML, las etiquetas <meta> se utilizan para proporciona información que describe el contenido del documento.
+
+La etiqueta <meta> puede tener varios atributos, entre los que se encuentran name, lang, content y http-equiv.
+
+En el ejemplo: <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />, 
+
+* El atributo name se utiliza para especificar el tipo de información que se está proporcionando, en este caso, "keywords", que indica que se están proporcionando palabras clave. 
+* El atributo lang indica el idioma de las palabras clave, en este caso, "es" para español. 
+* El atributo content especifica el contenido de las palabras clave.
+
+Por otro lado, la etiqueta <meta> también se utiliza para establecer el tiempo de expiración de una página web en caché en el navegador. En el ejemplo <meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />, se establece que la página caducará a las 7:49 PM del 16 de septiembre de 2019. Esto significa que después de esa fecha y hora, el navegador no mostrará una versión en caché de la página y deberá volver a cargar el contenido desde el servidor web.
+
+2.e <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" 
+rel="help">Resumen HTML </a>
+
+En HTML, la etiqueta <a> se utiliza para crear un enlace a otra página web o a otra sección de la misma página. En el ejemplo, la etiqueta <a> tiene varios atributos que proporcionan información adicional sobre el enlace:
+
+El atributo href especifica la URL de destino del enlace, en este caso, "http://www.e-style.com.ar/resumen.html".
+El atributo type indica el tipo del archivo al que se está enlazando. En este caso, el valor "text/html" indica que el enlace apunta a una página HTML.
+El atributo hreflang especifica el idioma del documento al que se está enlazando. En este caso, el valor "es" indica que el documento está en español.
+El atributo charset especifica la codificación de caracteres utilizada en la página a la que se enlaza. En este caso, el valor "utf-8" indica que la página utiliza la codificación de caracteres UTF-8.
+El atributo rel especifica la relación entre la página actual y la página a la que se enlaza. En este caso, el valor "help" indica que la página enlazada proporciona ayuda o información adicional relacionada con el contenido de la página actual.
+
+Es importante destacar que no todos los atributos son obligatorios y algunos pueden ser omitidos sin afectar el funcionamiento del enlace. Sin embargo, proporcionar información adicional sobre el enlace puede ser útil para los usuarios y para los motores de búsqueda que indexan el contenido de la página.

@@ -1,0 +1,59 @@
+Ejercitación 1 - Responder el siguiente cuestionario
+
+1. Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?
+2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos 
+con HTML?
+3. En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y 
+obsoleto?
+4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+5. Qué son los metadatos y cómo se especifican en HTML?
+
+- Respuestas -
+
+1. HTML (su Sigla en inglés HyperText Markup Language y en español Lenguaje de marcado de hipertexto)
+Es un lenguaje de marcado para la elaboración de páginas web. Es un estándar, a cargo del World Wide Web Consortium (W3C), que sirve de referencia del software que conecta con la 
+elaboración de páginas web en sus diferentes versiones.
+Define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imáge nes, videos, juegos, entre otros mediante etiquetas.
+
+2. La World Wide Web (Web), en castellano "Tejido Mundial", es una red de recursos de información. 
+La Web se basa en tres mecanismos para hacer que estos recursos estén listos y a disposición de la mayor audiencia posible: 
+a. Un esquema uniforme de nombres para localizar recursos en la Web (p.ej., URIs). 
+b. Protocolos, para acceder a recursos con nombre en la Web (p.ej., HTTP). 
+c. Hipertexto, para navegar fácilmente entre recursos (p.ej., HTML).
+
+3. Un elemento o atributo desaprobado es aquel que ha quedado anticuado por la presencia de estructuras nuevas, aunque no se recomienda su uso en nuevas implementaciones, aún funciona en navegadores y herramientas compatibles con versiones anteriores de HTML. El uso de un elemento desaprobado no se considera una buena práctica
+
+Por otro lado, un elemento o atributo se considera "obsoleto" cuando ya no se recomienda su uso y se ha eliminado de las especificaciones HTML.
+
+En general, se recomienda a los desarrolladores evitar el uso de elementos y atributos desaprobados u obsoletos y utilizar alternativas actualizadas y recomendadas en su lugar para garantizar la compatibilidad y la accesibilidad de sus sitios web
+
+4. El DTD (Document Type Definition) es una declaración que se utiliza en HTML para definir la estructura y los elementos que se pueden utilizar en un documento HTML. La declaración del tipo de documento se ubica en la primera línea del archivo HTML, es decir antes de la marca html
+
+Los posibles DTDs son: DTD estricta (Strict Transitional) y DTD transitoria (Transitional)
+
+Aclaremos que la especificación de HTML 4.01 ha sido reemplazada por la versión más reciente de HTML5, la cual utiliza un DTD llamado "HTML5" que es mucho más flexible y no requiere la definición de un DTD específico en el documento HTML.
+
+5. Los metadatos dan más informacion de un documento que el propio contenido del mismo. Estos sirven para que los autores puedan dar esa información extra que a veces requiere el documento. Los metadatos no son visibles en la página web.
+En general, la especificación de metadatos implica dos pasos:
+
+a - Declaración de una propiedad y de un valor para esta propiedad. Esto puede hacerse de dos maneras:
+* Desde dentro de un documento, por medio del elemento META.
+* Desde fuera de un documento, vinculando los metadatos por medio del elemento LINK (véase la sección sobre tipos de vínculos).
+b - Referencia a un perfil en el que se definen la propiedad y sus valores legales. Para designar un perfil, se usa el atributo profile del elemento HEAD.
+
+Por ejemplo, de código HTML que muestra cómo se especifican algunos metadatos en la sección head de una página web:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo de página web</title>
+    <meta name="description" content="Esta es una página web de ejemplo">
+    <meta name="keywords" content="página web, ejemplo, HTML">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    ...
+  </body>
+</html>
+
+En este ejemplo, se especifica el título de la página, una descripción breve, algunas palabras clave relevantes, el conjunto de caracteres utilizado en el documento HTML y un enlace a una hoja de estilos externa llamada "estilos.css".
