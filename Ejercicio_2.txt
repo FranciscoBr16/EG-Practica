@@ -49,3 +49,37 @@ El atributo charset especifica la codificación de caracteres utilizada en la p�
 El atributo rel especifica la relación entre la página actual y la página a la que se enlaza. En este caso, el valor "help" indica que la página enlazada proporciona ayuda o información adicional relacionada con el contenido de la página actual.
 
 Es importante destacar que no todos los atributos son obligatorios y algunos pueden ser omitidos sin afectar el funcionamiento del enlace. Sin embargo, proporcionar información adicional sobre el enlace puede ser útil para los usuarios y para los motores de búsqueda que indexan el contenido de la página.
+
+2.f 
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+<caption align="top"> Título </caption>
+<tr>
+<th scope="col">&nbsp;</th>
+<th scope="col">A</th>
+<th scope="col">B</th>
+<th scope="col">C</th>
+</tr>
+<tr>
+<th scope="row">1º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th scope="row">2º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+
+En HTML, la etiqueta <table> se utiliza para crear una tabla que contiene una o varias filas de datos. En el ejemplo la tabla tiene varios atributos que proporcionan información adicional sobre su contenido y apariencia:
+
+El atributo width especifica el ancho de la tabla en píxeles o porcentaje de ancho de la pantalla.
+El atributo summary proporciona una descripción textual de la tabla para usuarios que utilizan tecnologías de asistencia como lectores de pantalla.
+La etiqueta <caption> se utiliza para proporcionar un título o descripción de la tabla. El atributo align especifica la alineación del título en relación con la tabla.
+La etiqueta <tr> define una fila de datos en la tabla.
+La etiqueta <th> se utiliza para definir una celda de encabezado en la tabla. El atributo scope especifica el alcance de la celda de encabezado, que puede ser "col" para columnas o "row" para filas.
+La etiqueta <td> se utiliza para definir una celda de datos en la tabla.
+En el ejemplo, la tabla tiene una fila de encabezado con tres celdas que contienen las letras "A", "B" y "C". A continuación, la tabla tiene dos filas de datos con tres celdas vacías cada una. El atributo &nbsp; se utiliza para insertar un espacio en blanco no separable en las celdas vacías. 
+
