@@ -50,8 +50,7 @@ El atributo rel especifica la relación entre la página actual y la página a l
 
 Es importante destacar que no todos los atributos son obligatorios y algunos pueden ser omitidos sin afectar el funcionamiento del enlace. Sin embargo, proporcionar información adicional sobre el enlace puede ser útil para los usuarios y para los motores de búsqueda que indexan el contenido de la página.
 
-2.f 
-<table width="200" summary="Datos correspondientes al ejercicio vencido">
+2.f <table width="200" summary="Datos correspondientes al ejercicio vencido">
 <caption align="top"> Título </caption>
 <tr>
 <th scope="col">&nbsp;</th>
