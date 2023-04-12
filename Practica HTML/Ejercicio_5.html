@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,25 +7,28 @@
     <title>Documento con marcos</title>
 </head>
 
-<body>
 
-    <frameset rows="100,*">
-        <frameset cols="30,*">
-            <frame>
-                <p>Solo un texto</p>
-            </frame>
-            <frame><img src="https://picsum.photos/125/125?random" /></frame>
-        </frameset>
-        <frameset cols="150,*">
-            <frame src="ej5add/Articulos.html" />
-            <frame src="ej5add/MasInfo.html" />
-        </frameset>
-        <noframes>
+<frameset rows="20%, 60%, 20%" frameborder="0">
 
-            <body>Su navegador no soporta frames</body>
-        </noframes>
+    <frameset cols="85%, 15%" frameborder="0">
+        <frame src="ej5add/principal.html">
+            <frame src="ej5add/logo.html">
     </frameset>
-</body>
+
+    <frameset cols="25%, 75%" frameborder="0">
+        <frame src="ej5add/menu.html">
+            <frame src="ej5add/Articulos.html">
+    </frameset>
+
+    <frame src="ej5add/pie.html" frameborder="0">
+
+</frameset>
+<noframes>
+
+    <body>Su navegador no soporta frames</body>
+</noframes>
+</frameset>
+
 
 
 </html>
