@@ -3,15 +3,15 @@
 ## En cada caso, declarar una regla CSS que produzca el siguiente efecto:
 ### 1. Los textos enfatizados dentro de cualquier título deben ser rojos.
 
-```bash
-  h1, h2, h3, h4, h5, h5 strong \033[31m {
+```css
+  h1, h2, h3, h4, h5, h5 strong {
     color: red; 
 }
 ```
 
 ### 2. Cualquier elemento que tenga asignado el atributo "href" y que esté dentro de cualquier párrafo que a su vez esté dentro de un bloque debe ser color negro.
 
-```bash
+```css
  div p *[href] {
     color: black; 
 }
@@ -19,7 +19,7 @@
 
 ### 3. El texto de las listas no ordenadas que estén dentro del bloque identificado como “ultimo” debe ser amarillo pero si es un enlace a otra página debe ser azul.
 
-```bash
+```css
 #ultimo ul{
     color: yellow;
 }
@@ -30,7 +30,7 @@
 ```
 ### 4. Los elementos identificados como “importante” dentro de cualquier bloque deben ser verdes, pero si están dentro de un título deben ser rojos.
 
-```bash
+```css
 div #importante{
     color: green;
 } 
@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6 #importante{
 
 ### 5. Todos los elementos h1 que especifique el atributo title, cualquiera que sea su valor, deben ser azules.
 
-```bash
+```css
 h1[title] {
     color: blue;
 }
@@ -51,7 +51,7 @@ h1[title] {
 
 ### 6. El color de los enlaces en las listas ordenadas debe ser azul para los enlaces aún no visitados, y violeta para los ya visitados y, además, no deben aparecer subrayados
 
-```bash
+```css
 ol a:link{
     color: blue;
 }
