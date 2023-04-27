@@ -1,0 +1,33 @@
+Ejercicio 2:
+Analizar el siguiente código señalando declaraciones y aplicaciones de reglas, y su efecto.
+p#normal {
+font-family: arial,helvetica;
+font-size: 11px;
+font-weight: bold;
+}
+
+Respuesta: Esta regla se aplica a elementos p con el identificador #normal. La regla establece que los párrafos con el identificador #normal utilizarán la fuente arial o helvetica, un tamaño de fuente de 11px y un peso de fuente bold.
+
+*#destacado {
+border-style: solid;
+border-color: blue;
+border-width: 2px;
+}
+
+Respuesta: Esta regla se aplica a todos los elementos con el identificador #destacado. La regla define una propiedad de borde con border-style, border-color y border-width. Los elementos que tienen el identificador #destacado tendrán un borde sólido con un ancho de 2px y un color azul.
+
+#distinto {
+background-color: #9EC7EB;
+color: red;
+}
+
+Respuesta: se aplica a elementos con el identificador #distinto. La regla define dos propiedades: background-color y color. La propiedad background-color establece el color de fondo del elemento en #9EC7EB, mientras que la propiedad color establece el color de texto en rojo.
+
+<p id="normal">Este es un párrafo</p>
+<p id="destacado">Este es otro párrafo</p>
+<table id="destacado"><tr><td>Esta es una tabla</td></tr></table>
+<p id="distinto">Este es el último párrafo</p>
+
+El primer parrafo se mostrara en la fuente arial o helvetica, un tamaño de fuente de 11px y en negrita.
+El segundo parrafo y la tabla tendránn un borde sólido con un ancho de 2px y un color azul.
+El ultimo parrafo se mostrara con un color de fondo #9EC7EB (celeste ), y el texto se mostrara en rojo.

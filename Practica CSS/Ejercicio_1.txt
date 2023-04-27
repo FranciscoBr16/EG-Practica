@@ -1,0 +1,108 @@
+Ejercicio 1: Responder
+1. ¿ Qué es CSS y para qué se usa?
+
+1- CSS son las siglas de Cascade Style Sheet que traducido significa hojas de estilo en cascada.
+Las hojas de estilo es una tecnología que nos permite controlar la apariencia de una página web.
+HTML no pone atención en la apariencia del documento, sino en la estructura. 
+CSS describe como los elementos dispuestos en la página son presentados al usuario. 
+CSS es un gran avance que complementa el HTML y la Web en general.
+Con CSS podemos especificar estilos como el tamaño, fuentes, color, espaciado entre textos y recuadros así como el lugar donde disponer texto e imágenes en la página.
+
+2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
+
+2- En CSS, las reglas son el medio por el cual se especifican las declaraciones de estilo para aplicar a un elemento HTML en particular. Las reglas se componen de dos partes principales: el selector y el bloque de declaración.
+
+El selector especifica a qué elemento o elementos HTML se aplicarán las declaraciones de estilo. Puede ser un nombre de etiqueta, una clase, un identificador, un selector de atributo o un selector de pseudo-clase.
+
+El bloque de declaración se encuentra entre llaves y contiene una o más declaraciones de estilo separadas por punto y coma. Cada declaración de estilo consiste en una propiedad y un valor separados por dos puntos. La propiedad especifica qué aspecto del elemento se va a cambiar, mientras que el valor especifica el nuevo valor de esa propiedad.
+
+Las reglas CSS se aplican en cascada, lo que significa que las declaraciones de estilo en reglas posteriores pueden anular las declaraciones de estilo en reglas anteriores si se aplican al mismo elemento HTML.
+
+3. ¿ Cuáles son las tres formas de dar estilo a un documento?
+
+3- Podemos asociar las reglas de estilo a las marcas HTML de tres maneras:
+• directamente a la marca, 
+• en el head de la página 
+• o agrupar las reglas de estilo en un archivo independiente con extensión *.css
+
+4. ¿ Cuáles son los distintos tipos de selectores más utilizados? 
+Ejemplifique cada uno.
+
+4- Selector de etiqueta: Selecciona todos los elementos que coinciden con el nombre de la etiqueta HTML.
+
+Ejemplo:
+p {
+  color: red;
+}
+
+Selector de clase: Selecciona todos los elementos que tienen el atributo class igual al nombre especificado.
+
+Ejemplo:
+.error {
+  color: red;
+}
+
+Selector de ID: Selecciona el elemento con el atributo id igual al nombre especificado.
+
+Ejemplo:
+#header {
+  background-color: blue;
+}
+
+Selector de descendiente: Selecciona los elementos secundarios que se encuentran dentro de un elemento principal.
+
+Ejemplo:
+ul li {
+  color: green;
+}
+
+Selector de atributo: Selecciona los elementos que tienen el atributo especificado con el valor especificado.
+
+Ejemplo:
+input[type="text"] {
+  border: 1px solid black;
+}
+
+5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+
+5- Una pseudo-clase en CSS es una palabra clave que se agrega a un selector para seleccionar un estado especial del elemento. Las pseudo-clases permiten aplicar estilos a elementos que no están en el árbol de elementos HTML, como el estado de un enlace al pasar el cursor sobre él o al hacer clic en él.
+
+Las pseudo-clases más utilizadas en los vínculos (o enlaces) son las siguientes:
+
+:hover: Se aplica cuando el usuario pasa el cursor sobre el enlace.
+
+Ejemplo:
+a:hover {
+  color: red;
+}
+
+:active: Se aplica cuando el usuario hace clic en el enlace.
+
+Ejemplo:
+a:active {
+  color: blue;
+}
+
+:visited: Se aplica a los enlaces visitados.
+
+Ejemplo:
+a:visited {
+  color: purple;
+}
+
+:link: Se aplica a los enlaces que aún no han sido visitados.
+
+Ejemplo:
+a:link {
+  color: green;
+}
+
+6. ¿ Qué es la herencia?
+
+6- La herencia en CSS es un mecanismo por el cual un elemento HTML puede heredar propiedades de su elemento padre en la estructura del documento HTML. Esto significa que, si se define una propiedad en un elemento, sus hijos pueden heredar esa propiedad automáticamente, sin necesidad de especificarla para cada elemento individualmente.
+
+La herencia en CSS puede aplicarse a varios tipos de propiedades, como la tipografía, el color de fondo, el color del texto, la alineación y otros estilos de presentación. Algunas propiedades no se heredan, como la anchura, la altura, el borde, el margen y el relleno.
+
+7. ¿ En qué consiste el proceso denominado cascada?
+
+7- Las reglas CSS se aplican en cascada, lo que significa que las declaraciones de estilo en reglas posteriores pueden anular las declaraciones de estilo en reglas anteriores si se aplican al mismo elemento HTML.

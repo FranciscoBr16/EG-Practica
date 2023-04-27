@@ -1,0 +1,49 @@
+Ejercicio 3
+Analizar el siguiente código señalando declaraciones y aplicaciones de reglas, y su efecto.
+p.quitar {
+color: red;
+}
+*.desarrollo {
+font-size: 8px;
+}
+.importante {
+font-size: 20px;
+}
+
+<p class="desarrollo"> 
+En este primer párrafo trataremos lo siguiente:
+<br />xxxxxxxxxxxxxxxxxxxxxxxxx
+</p>
+<p class="quitar">
+Este párrafo debe ser quitado de la obra…
+<br />xxxxxxxxxxxxxxxxxxxxxxxxx
+</p>
+<p >
+En este otro párrafo trataremos otro tema:<br />
+xxxxxxxxxxxxxxxxxxxxxxxxx
+</p>
+<p class="importante">
+Y este es el párrafo más importante de la obra…
+<br />xxxxxxxxxxxxxxxxxxxxxxxxx
+</ p>
+<h1 class="quitar">Este encabezado también debe ser quitado de la obra</h1>
+<p class="quitar importante">Se pueden aplicar varias clases a la vez</p>
+
+
+La primera regla CSS se aplica a elementos p con la clase .quitar. La regla define una propiedad de color con color. 
+
+El segundo párrafo del código HTML tiene la clase .quitar, por lo que el texto del segundo párrafo será de color rojo.
+
+La segunda regla CSS se aplica a todos los elementos con la clase .desarrollo. La regla define una propiedad de tamaño de fuente con font-size. Los elementos que tienen la clase .desarrollo tendrán un tamaño de fuente de 8px.
+
+El primer párrafo del código HTML tiene la clase .desarrollo, por lo que el texto del primer párrafo tendrá un tamaño de fuente de 8px.
+
+La tercera regla CSS se aplica a elementos con la clase .importante. La regla define una propiedad de tamaño de fuente con font-size. Los elementos que tienen la clase .importante tendrán un tamaño de fuente de 20px.
+
+El cuarto párrafo del código HTML tiene la clase .importante, por lo que el texto del cuarto párrafo tendrá un tamaño de fuente de 20px.
+
+El tercer párrafo no tiene ninguna clase por lo que sera predeterminado.
+
+El código también incluye un encabezado h1 con la clase .quitar, que tendrá un color de texto rojo.
+ 
+El último párrafo tiene dos clases, .quitar e .importante, el párrafo tendrá un tamaño de fuente de 20px y un color de texto rojo.
