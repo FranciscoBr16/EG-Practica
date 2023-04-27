@@ -4,7 +4,7 @@
 ### 1. Los textos enfatizados dentro de cualquier título deben ser rojos.
 
 ```css
-  h1, h2, h3, h4, h5, h5 strong {
+  h1, h2, h3, h4, h5, h5 strong{
     color: red; 
 }
 ```
