@@ -55,7 +55,7 @@ h1[title] {
 ol a:link{
     color: blue;
 }
-ol a:hover{
+ol a:visited{
     color:violet;
     text-docoration:none;
 }
