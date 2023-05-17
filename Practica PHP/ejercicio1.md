@@ -7,7 +7,7 @@
 - las estructuras de control
 - cuál es la salida por pantalla
 
-```bash
+```php
  <?php
 function doble($i) {
  return $i*2;
