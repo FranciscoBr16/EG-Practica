@@ -9,8 +9,7 @@ function comprobar_nombre_usuario($nombre_usuario){
  return false; 
  }
  //compruebo que los caracteres sean los permitidos 
- $permitidos = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-
-_"; 
+ $permitidos = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_"; 
  for ($i=0; $i<strlen($nombre_usuario); $i++){ 
  if (strpos($permitidos, substr($nombre_usuario,$i,1))===false){ 
  echo $nombre_usuario . " no es válido<br>"; 
