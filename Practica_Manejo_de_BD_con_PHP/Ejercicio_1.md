@@ -1,12 +1,14 @@
+## Practica 6 Manejo de Bases de Datos con PHP
 
-## Practica 6 Manejo de Bases de Datos con PHP 
 ## Ejercicio 1:
+
 ### Completar:
 
 #### Consulta a una base de datos: Para comenzar la comunicación con un servidor de base de datos MySQL, es necesario abrir una conexión a ese servidor. Para inicializar esta conexión, PHP ofrece la función:
+
 mysqli_connect()
 
-#### Todos sus parámetros son opcionales, pero hay tres de ellos que generalmente son necesarios: 
+#### Todos sus parámetros son opcionales, pero hay tres de ellos que generalmente son necesarios:
 
 el nombre del servidor de base de datos (DB_HOST), el nombre de usuario (DB_USER) y la contraseña (DB_PASS).
 
@@ -14,7 +16,7 @@ el nombre del servidor de base de datos (DB_HOST), el nombre de usuario (DB_USER
 
 mysqli_select_db()
 
-#### Esta función debe pasar como parámetro: 
+#### Esta función debe pasar como parámetro:
 
 el nombre de la base de datos que se desea seleccionar. Por ejemplo:
 
@@ -60,3 +62,6 @@ mysqli_free_result($vResultado);
 mysqli_close($link);
 ?>
 ```
+
+Las primeras lineas del codigo acceden y muestran los valores en la posicion 0 , 1 , 2 del arreglo $fila
+Las ultimas liberarán toda la memoria asociada con el identificador del resultado y se cerrara la conexión con la base de datos anteriormente abierta.
