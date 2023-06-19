@@ -63,5 +63,4 @@ mysqli_close($link);
 ?>
 ```
 
-Las primeras lineas del codigo acceden y muestran los valores en la posicion 0 , 1 , 2 del arreglo $fila
-Las ultimas liberarán toda la memoria asociada con el identificador del resultado y se cerrara la conexión con la base de datos anteriormente abierta.
+Las primeras lineas del codigo acceden y muestran los valores en la posicion 0 , 1 , 2 del arreglo $fila. Las ultimas liberarán toda la memoria asociada con el identificador del resultado y se cerrara la conexión con la base de datos anteriormente abierta.
